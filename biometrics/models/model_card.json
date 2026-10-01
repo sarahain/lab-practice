@@ -1,0 +1,37 @@
+{
+  "created": "2026-10-01 03:40:42",
+  "dataset": "olivetti",
+  "n_identities": 40,
+  "n_images": 400,
+  "image_shape": [
+    64,
+    64
+  ],
+  "seed": 42,
+  "pipeline": [
+    "scaler",
+    "pca",
+    "lda",
+    "svm"
+  ],
+  "hyperparameters": {
+    "pca__n_components": "120",
+    "svm__C": "1.0",
+    "svm__gamma": "scale"
+  },
+  "augmentation_factor": 2,
+  "cv_folds": 5,
+  "template_dim": 39,
+  "metrics_oof": {
+    "accuracy": 0.99,
+    "precision_macro": 0.9912878787878789,
+    "recall_macro": 0.99,
+    "f1_macro": 0.9899369636211741,
+    "rank1_accuracy": 0.99,
+    "rank5_accuracy": 0.995
+  },
+  "macro_auc": 0.9998012820512819,
+  "eer": 0.0033653846153846177,
+  "eer_threshold": 0.07931454874996627,
+  "sklearn_version": "1.6.1"
+}
