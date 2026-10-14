@@ -1,5 +1,5 @@
 {
-  "created": "2026-10-12 11:34:41",
+  "created": "2026-10-13 13:35:32",
   "dataset": "olivetti",
   "n_identities": 40,
   "n_images": 400,
@@ -32,6 +32,6 @@
   },
   "macro_auc": 0.9998012820512819,
   "eer": 0.0033653846153846177,
-  "eer_threshold": 0.07931454874996627,
+  "eer_threshold": 0.07931162548270704,
   "sklearn_version": "1.6.1"
 }
